@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    --brown-color: #571A00;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/Gradient.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoo{
+    width: 80px;
+}
+
+.links{
+    display: flex;
+    gap: 5px;
+}
+
+.links a{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 0 15px;
+    color: var(--brown-color);
+    cursor: pointer;
+    transition: ease-in-out 500ms;
+}
+
+.links a:hover{
+    background-color: var(--brown-color);
+    border-radius: 20px;
+    color: #fff;
+    transition: ease-in-out 500ms;
+}
+
+.account{
+    display: flex;
+    gap: 5px;
+}
+
+.acc1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 0 15px;
+    color: #571A00;
+    cursor: pointer;
+    border: 1px solid #571A00;
+    border-radius: 20px;
+    transition: ease-in-out 500ms;
+}
+
+.acc1:hover{
+    background-color: var(--brown-color);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: #fff;
+    transition: ease-in-out 500ms;
+}
+
+.acc1:hover + .acc2{
+    background-color: transparent;
+    border: 1px solid #943107;
+    border-radius: 20px;
+    color: #571A00;
+    transition: ease-in-out 500ms;
+}
+
+.acc2{
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 0 15px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: var(--brown-color);
+    border-radius: 20px;
+    color: #fff;
+    transition: ease-in-out 500ms;
+}
+
+main{
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.intro{
+    width: 55%;
+    padding: 0 0 0 20px;
+}
+
+.intro h1{
+    font-size: 6.0rem;
+    font-weight: 600;
+    color: var(--brown-color);
+    margin-bottom: 10px;
+}
+
+.intro p{
+    width: 600px;
+    font-size: 2.0rem;
+    font-weight: 600;
+    color: var(--brown-color);
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.order{
+    width: 150px;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    background-color: #943107;
+    border-radius: 20px;
+    transition: step-start 500ms;
+}
+
+.order:hover{
+    background-color: var(--brown-color);
+    transition: ease-in-out 500ms;
+}
+
+.view{
+    width: 150px;
+    padding: 10px 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #571A00;
+    color: var(--brown-color);
+    border-radius: 20px;
+    transition:  500ms;
+}
+
+.view:hover{
+    color: #fff;
+    background-color: var(--brown-color);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: ease-in-out 500ms;
+}
+
+.photo{
+    margin-left: auto;
+}
